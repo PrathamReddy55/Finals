@@ -60,3 +60,23 @@ Again, you can see lots of familiarity with what we did in class and the code we
 **Weather Page**
 
 This page was adapted from the weather app that we created in class. Now, it just looks at Williamsburg as opposed to options. 
+
+**Styles Page**
+We understood in order to make our website look good it was going to take a lot of work. With that being said, ChatGPT suggested we add classNames, almost at the end of every html/dash addition. By doing this, we are able to control every aspect of the website. In order to make sure we were heading down the right direction, we contacted Pratham's friend, a CS major, to make sure our reasoning was correct, which he did. From here, we split up the styles sheet into 4 equal parts, where each of us added in font color, display types, and many other additions we added in class. Now, I will outline the parts where ChatGPT helped us come up with new ideas and improve our layout. 
+
+- z-index - for stacking content
+- text-shadow
+- transition - similar to a gradient
+- uploading pictures to the background i.e. the title page
+- box-shadow
+- flex-direction - allows restaurants to be listed horizontal
+- grid-template-columns - allows restaurants to be listed horizontal
+- animation
+- @keyframes - allows for animations
+- overflow
+- object fit
+
+These are all the functions that ChatGPT helped us add to our layout to make the website more visually appealing. I added small defintions for the user to see, so they can get a basic understanding of what each one does. Some of them do not have a definition because in the code it is trivial to how it is being used. i.e. text shadow adds a shadow to the text. 
+
+**Other** 
+Important to note, we did use AI to help us format and include necessary information for this ReadMe file. We did not want to leave out information, so ChatGPT did guide us to including important information. 
