@@ -45,3 +45,8 @@ Used API for getting the weather
 - These variables are all posted on the website
 - With restaurants, we pulled in the name, rating, number of reviews, phone number, and website
 - These variables are all posted on the website
+
+## AI Assistance 
+   The majority of AI assistance we had was used in our styles sheet, however we did have minor help with it in some of our pages. The majority of the work in our pages comes from class examples and/or the presentations Dr. Schlosser had on screen. I will now list on each page how we had AI assist us.
+
+** Attractions Page **
