@@ -108,6 +108,7 @@ def update_attraction(n_clicks):
     image_path = f"/assets/{image_file}"
     
     
+    # AI assistance
     stars = "★" * (attraction_rating // 20) + "☆" * (5 - (attraction_rating // 20))
     
     
@@ -146,4 +147,5 @@ def update_attraction(n_clicks):
     ], className="attraction-result")
 
     return attraction_card
+
 
