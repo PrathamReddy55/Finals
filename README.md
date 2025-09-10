@@ -62,6 +62,7 @@ Again, you can see lots of familiarity with what we did in class and the code we
 This page was adapted from the weather app that we created in class. Now, it just looks at Williamsburg as opposed to options. 
 
 **Styles Page**
+
 We understood in order to make our website look good it was going to take a lot of work. With that being said, ChatGPT suggested we add classNames, almost at the end of every html/dash addition. By doing this, we are able to control every aspect of the website. In order to make sure we were heading down the right direction, we contacted Pratham's friend, a CS major, to make sure our reasoning was correct, which he did. From here, we split up the styles sheet into 4 equal parts, where each of us added in font color, display types, and many other additions we added in class. Now, I will outline the parts where ChatGPT helped us come up with new ideas and improve our layout. 
 
 - z-index - for stacking content
