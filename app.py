@@ -1,4 +1,4 @@
-verimport dash
+import dash
 from dash import Dash, dcc, html
 import dash_bootstrap_components as dbc
 
@@ -35,5 +35,3 @@ app.layout = html.Div([
 
 if __name__ == "__main__":
     app.run(debug=True)
-
-
