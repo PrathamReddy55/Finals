@@ -133,19 +133,11 @@ def update_restaurants(n_clicks, cuisine):
     children = []  
     for i, r in enumerate(restaurants):
         import random
-        review_count = random.randint(15, 150)
-        rating = round(random.uniform(3.5, 5.0), 1)
-        
-        stars = "★" * int(rating) + "☆" * (5 - int(rating))
         
         card_content = [
             html.Div([
                 html.Div([
                     html.H4(r["name"], className="restaurant-name"),
-                    html.Div([
-                        html.Span(stars, className="restaurant-rating"),
-                        html.Span(f"{rating}/5", className="rating-number"),
-                        html.Span(f"({review_count} reviews)", className="review-count")
                     ], className="restaurant-rating-container")
                 ], className="restaurant-header"),
                 
@@ -183,4 +175,5 @@ def update_restaurants(n_clicks, cuisine):
 )
 def update_cuisine_image(cuisine):
     return f"/assets/{CUISINE_IMAGES.get(cuisine, 'other.jpg')}"
+
 
