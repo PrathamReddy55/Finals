@@ -7,3 +7,4 @@ beautifulsoup4==4.12.3
 lxml==4.9.3
 gunicorn==21.2.0
 bs4==4.9.3
+plotly.express==5.11.0
