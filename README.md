@@ -26,3 +26,22 @@ This dashboard solves that by creating a **centralized travel guide** that bring
 2. Install dependencies:  
    ```bash
    pip install -r requirements.txt
+
+## Data Sources and Dictionary
+** These are the API's we used **
+- https://www.visitwilliamsburg.com/things-to-do/museums-and-attractions/
+Used for webscraping the attractions
+- https://overpass-api.de/api/interpreter
+Used API for the restaurants 
+- https://api.open-meteo.com/v1/forecast
+Used API for getting the weather
+
+** Information regarding the API's **
+- All data was most recently accessed 9/10
+- In terms of file structure, each page is clearly associated with the given API
+
+** Variables within each API ** 
+- With attractions, we pulled in the rating, location, and if it was reccommended by someone
+- These variables are all posted on the website
+- With restaurants, we pulled in the name, rating, number of reviews, phone number, and website
+- These variables are all posted on the website
