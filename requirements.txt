@@ -9,4 +9,5 @@ PyMySQL>=1.1
 Werkzeug>=3.0
 python-dotenv>=1.0
 requests>=2.30
+beautifulsoup4
 
