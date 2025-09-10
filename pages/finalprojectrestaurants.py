@@ -151,7 +151,7 @@ def update_restaurants(n_clicks, cuisine):
                 
                 html.Div([
                     html.Div([
-                        html.Span("📞", className="phone-emoji"),
+                        html.Span("📞", className="phone-emoji"), # AI assistance
                         html.Span(r["phone"], className="restaurant-phone")
                     ], className="restaurant-info-item"),
 
@@ -183,3 +183,4 @@ def update_restaurants(n_clicks, cuisine):
 )
 def update_cuisine_image(cuisine):
     return f"/assets/{CUISINE_IMAGES.get(cuisine, 'other.jpg')}"
+
