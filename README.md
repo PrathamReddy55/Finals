@@ -1,7 +1,7 @@
 # Colonial Williamsburg Travel Guide 🏛️🌳
 
 ## Project Overview
-Tourists visiting Colonial Williamsburg often face **information overload** when trying to plan a trip. Attractions, weather, and dining options are scattered across multiple websites, making it difficult to get a clear picture of what to do and when.  
+Tourists and new college students, like our group, are visiting Colonial Williamsburg and often do not know where to start. Attractions and dining options, along with the weather variable, are scattered across multiple websites, making it difficult to get a clear picture of what to do and when.  
 
 This dashboard solves that by creating a **centralized travel guide** that brings together:
 - **Attractions** → curated experiences with images, links, and ratings  
